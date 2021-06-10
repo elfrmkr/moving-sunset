@@ -10,11 +10,7 @@ const sun= document.getElementById('sun')
 
 function move() {
   const incrementer = window.scrollY
-
-  // the '10' refers to the height from the bottom of the sky section. We added this
-  // in the css file. Feel free to move all styling to the JS file if you prefer to keep the
-  // the '10' consistent.
-  /*balloon.style.bottom = 10 + incrementer * 0.1 + '%'*/
+// the base numbers refers to the location of the objects. 
 
   cloudOne.style.bottom = 40 + incrementer * 0.0712 + '%'
   cloudOne.style.left = 75 + incrementer * 0.071 + '%'
